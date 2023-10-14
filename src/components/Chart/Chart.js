@@ -11,8 +11,7 @@ const Chart = (props) => {
                 key={dataPoint.label}
                 value={dataPoint.value}
                 maxValue={totalMaxium}
-                label={dataPoint.label}
-            />
+                label={dataPoint.label} />
         )}
     </div>
 }
